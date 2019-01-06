@@ -6,5 +6,8 @@ target 'TYQVideoDemo' do
   # use_frameworks!
 
   # Pods for TYQVideoDemo
+  pod 'NetWork', :git => 'https://github.com/liyongqiang3/LXQNetWork.git', :branch => 'master'
+  
+  pod 'TYVideoPlayer', :git =>'https://github.com/liyongqiang3/LYQAVPlayer.git', :branch => 'master'
 
 end
