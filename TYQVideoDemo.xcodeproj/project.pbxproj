@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42DD6FC89DA099F4C8E2B9FF /* libPods-TYQVideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A640552A03E6409D0E3C8D1 /* libPods-TYQVideoDemo.a */; };
+		D059038C21E1F7A400B7AC0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D059038B21E1F7A400B7AC0A /* AppDelegate.m */; };
+		D059038F21E1F7A400B7AC0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059038E21E1F7A400B7AC0A /* ViewController.m */; };
+		D059039221E1F7A400B7AC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059039021E1F7A400B7AC0A /* Main.storyboard */; };
+		D059039421E1F7A500B7AC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D059039321E1F7A500B7AC0A /* Assets.xcassets */; };
+		D059039721E1F7A500B7AC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059039521E1F7A500B7AC0A /* LaunchScreen.storyboard */; };
+		D059039A21E1F7A500B7AC0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D059039921E1F7A500B7AC0A /* main.m */; };
+		D05903A321E1F7DE00B7AC0A /* TYQRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05903A221E1F7DE00B7AC0A /* TYQRootViewController.m */; };
+		D05903A721E1F84D00B7AC0A /* LYQHomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05903A621E1F84D00B7AC0A /* LYQHomeTabViewController.m */; };
+		D05903AC21E1FB2800B7AC0A /* LYQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05903AB21E1FB2800B7AC0A /* LYQHomeViewController.m */; };
+		D05903B021E1FB7C00B7AC0A /* LYQMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05903AF21E1FB7C00B7AC0A /* LYQMVVMViewController.m */; };
+		D05903B321E1FB9C00B7AC0A /* LYQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05903B221E1FB9C00B7AC0A /* LYQMeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A640552A03E6409D0E3C8D1 /* libPods-TYQVideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYQVideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059038721E1F7A400B7AC0A /* TYQVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYQVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059038A21E1F7A400B7AC0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D059038B21E1F7A400B7AC0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D059038D21E1F7A400B7AC0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D059038E21E1F7A400B7AC0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D059039121E1F7A400B7AC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D059039321E1F7A500B7AC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D059039621E1F7A500B7AC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D059039821E1F7A500B7AC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D059039921E1F7A500B7AC0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05903A121E1F7DE00B7AC0A /* TYQRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQRootViewController.h; sourceTree = "<group>"; };
+		D05903A221E1F7DE00B7AC0A /* TYQRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQRootViewController.m; sourceTree = "<group>"; };
+		D05903A521E1F84D00B7AC0A /* LYQHomeTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQHomeTabViewController.h; sourceTree = "<group>"; };
+		D05903A621E1F84D00B7AC0A /* LYQHomeTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQHomeTabViewController.m; sourceTree = "<group>"; };
+		D05903AA21E1FB2800B7AC0A /* LYQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQHomeViewController.h; sourceTree = "<group>"; };
+		D05903AB21E1FB2800B7AC0A /* LYQHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQHomeViewController.m; sourceTree = "<group>"; };
+		D05903AE21E1FB7C00B7AC0A /* LYQMVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQMVVMViewController.h; sourceTree = "<group>"; };
+		D05903AF21E1FB7C00B7AC0A /* LYQMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQMVVMViewController.m; sourceTree = "<group>"; };
+		D05903B121E1FB9C00B7AC0A /* LYQMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQMeViewController.h; sourceTree = "<group>"; };
+		D05903B221E1FB9C00B7AC0A /* LYQMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQMeViewController.m; sourceTree = "<group>"; };
+		DB3185F6B16EFA30C546D580 /* Pods-TYQVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYQVideoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYQVideoDemo/Pods-TYQVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4AFC682A5D7746EDE64050 /* Pods-TYQVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYQVideoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYQVideoDemo/Pods-TYQVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D059038421E1F7A400B7AC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DD6FC89DA099F4C8E2B9FF /* libPods-TYQVideoDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D537D6042D5CBE6BB8595A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A640552A03E6409D0E3C8D1 /* libPods-TYQVideoDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A68D8F2314F68EC8E0DF18CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB3185F6B16EFA30C546D580 /* Pods-TYQVideoDemo.debug.xcconfig */,
+				ED4AFC682A5D7746EDE64050 /* Pods-TYQVideoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D059037E21E1F7A300B7AC0A = {
+			isa = PBXGroup;
+			children = (
+				D059038921E1F7A400B7AC0A /* TYQVideoDemo */,
+				D059038821E1F7A400B7AC0A /* Products */,
+				A68D8F2314F68EC8E0DF18CD /* Pods */,
+				A4D537D6042D5CBE6BB8595A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D059038821E1F7A400B7AC0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D059038721E1F7A400B7AC0A /* TYQVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D059038921E1F7A400B7AC0A /* TYQVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D05903AD21E1FB5600B7AC0A /* Mvvm */,
+				D05903A821E1FB1200B7AC0A /* Home */,
+				D05903A921E1FB1200B7AC0A /* Me */,
+				D05903A421E1F81500B7AC0A /* TabBarVC */,
+				D05903A021E1F7CA00B7AC0A /* RootVC */,
+				D059038A21E1F7A400B7AC0A /* AppDelegate.h */,
+				D059038B21E1F7A400B7AC0A /* AppDelegate.m */,
+				D059038D21E1F7A400B7AC0A /* ViewController.h */,
+				D059038E21E1F7A400B7AC0A /* ViewController.m */,
+				D059039021E1F7A400B7AC0A /* Main.storyboard */,
+				D059039321E1F7A500B7AC0A /* Assets.xcassets */,
+				D059039521E1F7A500B7AC0A /* LaunchScreen.storyboard */,
+				D059039821E1F7A500B7AC0A /* Info.plist */,
+				D059039921E1F7A500B7AC0A /* main.m */,
+			);
+			path = TYQVideoDemo;
+			sourceTree = "<group>";
+		};
+		D05903A021E1F7CA00B7AC0A /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				D05903A121E1F7DE00B7AC0A /* TYQRootViewController.h */,
+				D05903A221E1F7DE00B7AC0A /* TYQRootViewController.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		D05903A421E1F81500B7AC0A /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				D05903A521E1F84D00B7AC0A /* LYQHomeTabViewController.h */,
+				D05903A621E1F84D00B7AC0A /* LYQHomeTabViewController.m */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		D05903A821E1FB1200B7AC0A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D05903AA21E1FB2800B7AC0A /* LYQHomeViewController.h */,
+				D05903AB21E1FB2800B7AC0A /* LYQHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D05903A921E1FB1200B7AC0A /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D05903B121E1FB9C00B7AC0A /* LYQMeViewController.h */,
+				D05903B221E1FB9C00B7AC0A /* LYQMeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		D05903AD21E1FB5600B7AC0A /* Mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				D05903AE21E1FB7C00B7AC0A /* LYQMVVMViewController.h */,
+				D05903AF21E1FB7C00B7AC0A /* LYQMVVMViewController.m */,
+			);
+			path = Mvvm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D059038621E1F7A400B7AC0A /* TYQVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D059039D21E1F7A500B7AC0A /* Build configuration list for PBXNativeTarget "TYQVideoDemo" */;
+			buildPhases = (
+				8C9214BDFC25B15066EAC179 /* [CP] Check Pods Manifest.lock */,
+				D059038321E1F7A400B7AC0A /* Sources */,
+				D059038421E1F7A400B7AC0A /* Frameworks */,
+				D059038521E1F7A400B7AC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYQVideoDemo;
+			productName = TYQVideoDemo;
+			productReference = D059038721E1F7A400B7AC0A /* TYQVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D059037F21E1F7A300B7AC0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yongqiang;
+				TargetAttributes = {
+					D059038621E1F7A400B7AC0A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D059038221E1F7A300B7AC0A /* Build configuration list for PBXProject "TYQVideoDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D059037E21E1F7A300B7AC0A;
+			productRefGroup = D059038821E1F7A400B7AC0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D059038621E1F7A400B7AC0A /* TYQVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D059038521E1F7A400B7AC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D059039721E1F7A500B7AC0A /* LaunchScreen.storyboard in Resources */,
+				D059039421E1F7A500B7AC0A /* Assets.xcassets in Resources */,
+				D059039221E1F7A400B7AC0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C9214BDFC25B15066EAC179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYQVideoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D059038321E1F7A400B7AC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05903B021E1FB7C00B7AC0A /* LYQMVVMViewController.m in Sources */,
+				D05903AC21E1FB2800B7AC0A /* LYQHomeViewController.m in Sources */,
+				D059038F21E1F7A400B7AC0A /* ViewController.m in Sources */,
+				D05903A721E1F84D00B7AC0A /* LYQHomeTabViewController.m in Sources */,
+				D059039A21E1F7A500B7AC0A /* main.m in Sources */,
+				D059038C21E1F7A400B7AC0A /* AppDelegate.m in Sources */,
+				D05903A321E1F7DE00B7AC0A /* TYQRootViewController.m in Sources */,
+				D05903B321E1FB9C00B7AC0A /* LYQMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D059039021E1F7A400B7AC0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D059039121E1F7A400B7AC0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D059039521E1F7A500B7AC0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D059039621E1F7A500B7AC0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D059039B21E1F7A500B7AC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D059039C21E1F7A500B7AC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D059039E21E1F7A500B7AC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3185F6B16EFA30C546D580 /* Pods-TYQVideoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPPN3XTZ8Y;
+				INFOPLIST_FILE = TYQVideoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyi.TYQVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D059039F21E1F7A500B7AC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4AFC682A5D7746EDE64050 /* Pods-TYQVideoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPPN3XTZ8Y;
+				INFOPLIST_FILE = TYQVideoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangyi.TYQVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D059038221E1F7A300B7AC0A /* Build configuration list for PBXProject "TYQVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D059039B21E1F7A500B7AC0A /* Debug */,
+				D059039C21E1F7A500B7AC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D059039D21E1F7A500B7AC0A /* Build configuration list for PBXNativeTarget "TYQVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D059039E21E1F7A500B7AC0A /* Debug */,
+				D059039F21E1F7A500B7AC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D059037F21E1F7A300B7AC0A /* Project object */;
+}
