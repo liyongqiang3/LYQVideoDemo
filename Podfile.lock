@@ -14,8 +14,13 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Mantle (1.5.8):
+    - Mantle/extobjc (= 1.5.8)
+  - Mantle/extobjc (1.5.8)
+  - Masonry (1.1.0)
   - NetWork (0.0.1):
     - AFNetworking (~> 3.2.1)
+  - ReactiveObjC (3.0.0)
   - TYVideoPlayer (0.0.1):
     - TYVideoPlayer/CacheFlie (= 0.0.1)
     - TYVideoPlayer/Network (= 0.0.1)
@@ -31,12 +36,18 @@ PODS:
   - TYVideoPlayer/Utils (0.0.1)
 
 DEPENDENCIES:
+  - Mantle (~> 1.5.6)
+  - Masonry (~> 1.1.0)
   - NetWork (from `https://github.com/liyongqiang3/LXQNetWork.git`, branch `master`)
+  - ReactiveObjC (~> 3.0.0)
   - TYVideoPlayer (from `https://github.com/liyongqiang3/LYQAVPlayer.git`, branch `master`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - Mantle
+    - Masonry
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   NetWork:
@@ -56,9 +67,12 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Mantle: f03b2b606c3f0cabd80214ad8a2fed6b464a7359
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   NetWork: 01c1845e2f4ed77c73c1d1e22a68db4d7728eff2
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   TYVideoPlayer: a5c9612a09c7e775e9a46b256eed65ff67bf20f1
 
-PODFILE CHECKSUM: 0f182e1902941b40e22a92d45624a60e76a2b0cf
+PODFILE CHECKSUM: 30764a491cd15814f256771f67a786b8dd4a1282
 
 COCOAPODS: 1.5.3
