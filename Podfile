@@ -7,6 +7,7 @@ target 'TYQVideoDemo' do
   pod 'Mantle', '~> 1.5.6'
   pod 'Masonry', '~> 1.1.0'
   pod 'ReactiveObjC', '~> 3.0.0'
+  pod 'SDWebImage','~> 4.4.2'
   # Pods for TYQVideoDemo
   pod 'NetWork', :git => 'https://github.com/liyongqiang3/LXQNetWork.git', :branch => 'master'
   

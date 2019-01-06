@@ -21,6 +21,9 @@ PODS:
   - NetWork (0.0.1):
     - AFNetworking (~> 3.2.1)
   - ReactiveObjC (3.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
   - TYVideoPlayer (0.0.1):
     - TYVideoPlayer/CacheFlie (= 0.0.1)
     - TYVideoPlayer/Network (= 0.0.1)
@@ -40,6 +43,7 @@ DEPENDENCIES:
   - Masonry (~> 1.1.0)
   - NetWork (from `https://github.com/liyongqiang3/LXQNetWork.git`, branch `master`)
   - ReactiveObjC (~> 3.0.0)
+  - SDWebImage (~> 4.4.2q)
   - TYVideoPlayer (from `https://github.com/liyongqiang3/LYQAVPlayer.git`, branch `master`)
 
 SPEC REPOS:
@@ -48,6 +52,7 @@ SPEC REPOS:
     - Mantle
     - Masonry
     - ReactiveObjC
+    - SDWebImage
 
 EXTERNAL SOURCES:
   NetWork:
@@ -71,8 +76,9 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   NetWork: 01c1845e2f4ed77c73c1d1e22a68db4d7728eff2
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
   TYVideoPlayer: a5c9612a09c7e775e9a46b256eed65ff67bf20f1
 
-PODFILE CHECKSUM: 30764a491cd15814f256771f67a786b8dd4a1282
+PODFILE CHECKSUM: 719d36ceb321c943ad03666e1b49cd02b24c1b11
 
 COCOAPODS: 1.5.3
