@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - GPUImage (0.1.7)
   - Mantle (1.5.8):
     - Mantle/extobjc (= 1.5.8)
   - Mantle/extobjc (1.5.8)
@@ -39,16 +40,18 @@ PODS:
   - TYVideoPlayer/Utils (0.0.1)
 
 DEPENDENCIES:
+  - GPUImage
   - Mantle (~> 1.5.6)
   - Masonry (~> 1.1.0)
   - NetWork (from `https://github.com/liyongqiang3/LXQNetWork.git`, branch `master`)
   - ReactiveObjC (~> 3.0.0)
-  - SDWebImage (~> 4.4.2q)
+  - SDWebImage (~> 4.4.2)
   - TYVideoPlayer (from `https://github.com/liyongqiang3/LYQAVPlayer.git`, branch `master`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - GPUImage
     - Mantle
     - Masonry
     - ReactiveObjC
@@ -72,6 +75,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Mantle: f03b2b606c3f0cabd80214ad8a2fed6b464a7359
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   NetWork: 01c1845e2f4ed77c73c1d1e22a68db4d7728eff2
@@ -79,6 +83,6 @@ SPEC CHECKSUMS:
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
   TYVideoPlayer: a5c9612a09c7e775e9a46b256eed65ff67bf20f1
 
-PODFILE CHECKSUM: 719d36ceb321c943ad03666e1b49cd02b24c1b11
+PODFILE CHECKSUM: 46e6eeebdde182619a8832eca6240b669b44611b
 
 COCOAPODS: 1.5.3

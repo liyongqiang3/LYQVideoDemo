@@ -4,6 +4,9 @@
 target 'TYQVideoDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
+  
+  pod 'GPUImage'
+  
   pod 'Mantle', '~> 1.5.6'
   pod 'Masonry', '~> 1.1.0'
   pod 'ReactiveObjC', '~> 3.0.0'
